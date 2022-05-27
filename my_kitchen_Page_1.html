@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head align="center">
-        <title> First page</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> Good Eats!</title>
         My <b>Favorite</b> Resturants
     </head>
     <body style="background-color: powderblue;">
-        <h1 align="center">List of Resturants in the City of Orlando</h1><br>
         
-        <ul align="center">
-            <li align="center">CheeseCake Factory</li>
-            <li align="center">Waffle House</li>
-            <li align="center">Bahamma Breeze</li>
-            <li align="center">Famous Daves</li>
-            <li align="center"><a href="Page_2.html">My Kitchen</a></li>
-        </ul>
        <!---<script src ="/challengeTow.js"></script> -->
+       <header class="site-header">
+        <div class="wrapper site-header_wrapper">
+           <!-- need change logo picture -->
+            <a href="my_kitchen_Page_1.html" class="logo"><img src="eat.png" alt="Logo" width="150"></a>
+            <nav class="nav">
+                <ul class="navbar">
+                    <li><a class="nav_element" href="my_kitchen_Page_1.html">Home</a></li>
+                    <li><a class="nav_element" href="./Page_2.html">Page1</a></li>
+                    <li><a class="nav_element" href="./Page_3.html">Page2</a></li>
+                    <li><a class="nav_element" href="./Page_4.html">Page3</a></li>
+                    <!--     <li><a class="nav_element" href="">Page4</a></li> -->
+                </ul>
+            </nav>
+            <div class="icon"><a href="#"><img class="cart" src="shopping-cart-icon.png" alt="" width="35"></a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="page_title"><h1>My Favorite places to Eat</h1></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <div class="Favorite-spots">
+            <p>List of Resturants in the City of Orlando</p><br>
+            
+            <ul>
+                <li>CheeseCake Factory</li>
+                <li>Waffle House</li>
+                <li>Bahamma Breeze</li>
+                <li>Famous Daves</li>
+                <li> My Kitchen</li>
+            </ul>
+        </div>
+
     </body>
     <!-- Add a contact form to your page. This form does not need to function. 
         Only worry about getting in to display on your page. 
         Collect the users name, email, and comment. -->
     <div class="container">
-        <form action="action_page.php">
+       <!-- 
+           <form action="action_page.php">
       
           <label for="fname">Full Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Enter Full Name">
@@ -31,10 +64,21 @@
           <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
-      <!-- edit-->
-
-      
-
-        </form>
+         -->
+          <!--edit-->
+       
       </div>
+      <footer>
+        <!-- Might want to change this,-->
+        <div class="wrapper site-footer_wrapper">
+          <nav class="nav">
+            <ul class="navbar">
+                <div id="comment-box">Did you eat today? </div>
+                
+                          
+
+            </ul>
+          </nav>
+        </div>
+    </footer>
 </html>

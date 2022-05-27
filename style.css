@@ -4,3 +4,165 @@ Add at least 1 animation to your website
 Add some shadow effects
 Add some hover effects on buttons and/or links
 */
+* {
+    text-decoration: none;
+}
+
+body,
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+
+}
+
+#title {
+    animation-name: colorchange;
+    animation-duration: 4s;
+}
+
+@keyframes colorchange {
+    from {
+        background-color: antiquewhite;
+    }
+
+    to {
+        background-color: aquamarine;
+    }
+}
+
+.site-header_wrapper {
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: larger;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 40px;
+    opacity: 2;
+
+}
+.site-header_wrapper .nav {
+    margin-left: auto;
+}
+
+.navbar li {
+    padding: 0 50px;
+    text-transform: uppercase;
+
+}
+
+.navbar li a {
+    transition: .4s;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.navbar li a:hover {
+    color: coral;
+    background-color: grey;
+
+}
+.navbar li a:visited {
+    color: coral;
+}
+.search-box {
+    margin-left: auto;
+
+}
+.cart {
+    margin:0 50px;
+}
+
+
+#title {
+    display: block;
+    width: 1000px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 100px auto 0px;
+    border: 8px double black;
+    font-family: "Marck Script";
+    box-shadow: 10px 10px;
+}
+
+
+.restlogo {
+    border-top: 8px double green;
+    border-bottom: 5px solid green;
+    text-align: center;
+    box-shadow: 5px 5px;
+    margin: 0 20px;
+    vertical-align: middle;
+
+}
+
+.rest li {
+    margin-bottom: 50px;
+    font-family: Sansita Swashed;
+}
+
+
+.site-footer_wrapper {
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: larger;
+    position:relative;
+    bottom: 0;
+}
+.site-footer_wrapper .nav {
+    margin: auto;
+}
+.page_title {
+
+    display: block;
+text-align: center;
+margin: 100px auto 0px;
+font-family: "Marck Script";
+} 
+
+/* my edits 
+Need to change positon of favorite food spots
+*/
+
+#comment-box {
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color: #ffffff;
+font-family: verdana, 'open sans', sans-serif;
+margin-bottom: 25px;
+padding: 10px 14px 10px 44px;
+position: relative;
+box-shadow: 0px 1px 5px #999;
+}
+
+#comment-box:after {
+    font-family: FontAwesome;
+    font-size: 21px;
+    left: 14px;
+    position: absolute;
+}
+
+.Favorite-spots {
+    text-align:center ;
+}
+.Favorite-spots li {
+    align-content: center;
+}
+.page_title {
+    text-align: justify;
+    position: relative;
+    padding-bottom: 5px;
+}
