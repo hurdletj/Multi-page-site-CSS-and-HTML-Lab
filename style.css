@@ -12,6 +12,7 @@ body,
 html {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    background-color: powderblue;
 
 
 }
@@ -78,9 +79,7 @@ html {
     margin-left: auto;
 
 }
-.cart {
-    margin:0 50px;
-}
+
 
 
 #title {
@@ -118,8 +117,8 @@ html {
     justify-content: space-between;
     width: 100%;
     font-size: larger;
-    position:relative;
-    bottom: 0;
+    position:bottom;
+    bottom: 10;
 }
 .site-footer_wrapper .nav {
     margin: auto;
@@ -171,3 +170,9 @@ ul {
     list-style-image: url('CheeseCake\ Factory.png');
   }
   */
+  .site-footer_wrapper .navbar {
+      position: relative;
+      padding-bottom: 20px;
+      
+  }
+  
