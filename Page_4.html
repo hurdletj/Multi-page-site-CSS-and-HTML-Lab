@@ -1,13 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <li align="center"><a href="my_kitchen_Page_1.html">Home</a></li>
-</head>
-<body>
+<html>
+    <head align="center">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="style.css">
+        <title> Menus</title>
+        
+    </head>
+    <body>
     
-</body>
+       <header class="site-header">
+        <div class="wrapper site-header_wrapper">
+           <!-- need change logo picture -->
+            <a href="my_kitchen_Page_1.html" class="logo"><img src="eat.png" alt="Logo" width="150"></a>
+            <nav class="nav">
+                <ul class="navbar">
+                    <li><a class="nav_element" href="my_kitchen_Page_1.html">Home</a></li>
+                    <li><a class="nav_element" href="./Page_2.html">Locations</a></li>
+                    <li><a class="nav_element" href="./Page_3.html">Contact</a></li>
+                    <li><a class="nav_element" href="./Page_4.html">Menus</a></li>
+                    <!--     <li><a class="nav_element" href="">Page4</a></li> -->
+                </ul>
+            </nav>
+            <div class="icon"><a href="#"><img class="cart" src="shopping-cart-icon.png" alt="" width="35"></a>
+            </div>
+        </div>
+        </header><br><br>
+        <div class="page_title"><h1>Menus for Each Resturants</h1></div>
+        <div class="row">
+            <div class="column">
+                <h2>Column 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                 </p>
+             </div>
+             <div class="column">
+                <h2>Column 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                </p>
+             </div>
+             <div class="column">
+                <h2>Column 3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                </p>
+       </div>
+    </body>
+    <footer>
+        <!-- Might want to change this,-->
+        <div class="wrapper site-footer_wrapper">
+          <nav class="nav">
+            <ul class="navbar">
+                
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Full Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Enter Full Name">
+                  
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Enter Your Email Here..">
+                      <label for="comment">Comment</label>
+                      <textarea id="comment" name="comment" placeholder="Write something.." style="height:80px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                      
+                  
+                    </form>
+                  </div>
+                          
+
+            </ul>
+          </nav>
+        </div>
+
+        
+    </footer>
+    
 </html>
